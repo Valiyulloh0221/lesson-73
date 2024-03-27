@@ -32,7 +32,7 @@ const StudentCard = ({
         >
           Delete
         </button>
-        <button className="btn btn-primary" onClick={() => editStudent(id)}>
+        <button className="btn btn-warning" onClick={() => editStudent(id)}>
           Edit
         </button>
       </td>
